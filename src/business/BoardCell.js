@@ -1,4 +1,4 @@
-import "./BoardCell.css";
+import "../components/BoardCell.css";
 
 const BoardCell = ({ cell }) => (
   <div className={`BoardCell ${cell.className}`}>
